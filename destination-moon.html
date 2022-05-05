@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Space tourism</title>
+    <link rel="stylesheet" href="css/styles-destination.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="logo-container">
+        <img class="logo" src="images/logo.svg" alt="logo">
+      </div>
+      <div class="navbar-background">
+      </div>
+      <hr class="line-top" />
+      <nav class="navbar">
+        <ul>
+          <li class="menu-button"><a class="menu-link" href="index.html"><span class="menu-textbold">00</span> HOME</a></li>
+          <li class="menu-button button-active"><a class="menu-link" href="destination-moon.html"><span class="menu-textbold">01</span> DESTINATION</a></li>
+          <li class="menu-button"><a class="menu-link" href="#"><span class="menu-textbold">02</span> CREW</a></li>
+          <li class="menu-button"><a class="menu-link" href="#"><span class="menu-textbold">03</span> TECHNOLOGY</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <main class="mid-container">
+      <div class="left-container">
+        <h2 class="destination-caption"><span class="planet-number-text">01</span> PICK YOUR DESTINATION</h2>
+        <div class="planet-image">
+          <img id="planet-image" src="images/image-moon.png" alt="planet-img">
+        </div>
+      </div>
+
+      <div class="right-container">
+        <ul class="planet-menu">
+          <li class="planet-button button-active"><a class="planet-link" href="#" onclick="changeMoon()">MOON</a></li>
+          <li class="planet-button"><a class="planet-link" href="#" onclick="changeMars()">MARS</a></li>
+          <li class="planet-button"><a class="planet-link" href="#" onclick="changeEuropa()">EUROPA</a></li>
+          <li class="planet-button"><a class="planet-link" href="#" onclick="changeTitan()">TITAN</a></li>
+        </ul>
+        <div class="mid-text">
+          <h1 id="planet-name">MOON</h1>
+          <p id="planet-description">See our planet as you’ve never seen it before. A perfect relaxing trip away to helpregain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+          <hr class="line-bottom">
+          <div class="planet-data">
+            <div class="data-classification">
+              <h3>AVG. DISTANCE</h3>
+              <h4 id="planet-distance">384,400 KM</h4>
+            </div>
+            <div class="data-classification">
+              <h3>EST. TRAVEL TIME</h3>
+              <h4 id="planet-travel">3 DAYS</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </body>
+  <footer>
+    <script src="js/script.js" charset="utf-8"></script>
+  </footer>
+</html>

@@ -172,7 +172,14 @@ li {
   width: 35%;
 }
 
+.planet-menu {
+  padding: 0;
+}
+
 .planet-button {
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.15rem;
@@ -186,10 +193,10 @@ li {
 }
 
 .planet-link {
-  display: inline-block;
+  display: flex;
   text-decoration: none;
   color: white;
-  margin: 0 0;
+  margin: 0;
 }
 
 .mid-text {
@@ -218,7 +225,7 @@ li {
   width: 100%;
   display: flex;
   position: center;
-  border-color: #5B5B5B;
+  border-color: #222831;
 }
 
 .planet-number-text {
@@ -227,3 +234,76 @@ li {
   font-weight: bold;
   margin-right: 0.2rem;
 }
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  body{
+      background-image: url("background-destination-mobile.jpg");
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    letter-spacing: 6px;
+    }
+
+  h2 {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .navbar, .navbar-background{
+    width: 100%;
+  }
+
+  .left-container {
+    width: 80%;
+    margin-left: 0;
+    padding-top: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-container {
+    width: 80%;
+    margin: 3rem 0;
+    padding-top: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #planet-image {
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .mid-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .planet-button {
+    font-size: 1rem;
+    height: 2rem;
+    margin: 0 1rem;
+  }
+
+  .planet-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .planet-data{
+    flex-direction: column;
+  }

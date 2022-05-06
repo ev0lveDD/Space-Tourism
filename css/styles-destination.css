@@ -53,15 +53,17 @@ p {
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 li {
   float: left;
   margin: 0;
+  padding: 0;
 }
 
 .line-top {
-  border-top: 0px;
+  border-top: 0;
   width: 47%;
   top: 4.5rem;
   left: 8.5rem;
@@ -71,24 +73,24 @@ li {
 }
 
 .header{
-  padding: 5rem;
+  display: flex;
+  padding: 5rem 0;
+  align-items: center;
+  justify-content: center;
   /*border: 3px solid green;*/
 }
 
 .logo-container{
-  width: 7%;
-  height: 10%;
+  width: 7rem;
+  height: 6rem;
   display: flex;
   position: fixed;
-  top: 2.5rem;
   left: 0;
   align-items: center;
   justify-content: flex-end;
 }
 
 .logo{
-  left: 4rem;
-  top: 3.5rem;
   position: fixed;
 }
 
@@ -99,9 +101,10 @@ li {
   top: 2rem;
   width: 45%;
   height: 6rem;
+  padding: 0;
   margin: 0;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .navbar-background {
@@ -128,7 +131,12 @@ li {
   font-size: 1rem;
   letter-spacing: 0.15rem;
   height: 5.8rem;
+  padding: 0;
   margin: 0 0.625rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
 }
 
 .menu-button:hover {
@@ -219,8 +227,7 @@ li {
 }
 
 .line-bottom {
-  border-top: 0px;
-  border-right: 0px;
+  border: 0;
   padding-top: 2rem;
   width: 100%;
   display: flex;
@@ -307,3 +314,4 @@ li {
   .planet-data{
     flex-direction: column;
   }
+}

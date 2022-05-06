@@ -175,7 +175,7 @@ hr {
   transition: 0.8s;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .navbar, .navbar-background {
     width: 100%;
@@ -217,46 +217,3 @@ hr {
     align-items: center;
     justify-content: center;
   }
-
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .navbar, .navbar-background {
-      width: 100%;
-    }
-
-    body{
-        background-image: url("background-home-mobile.jpg");
-    }
-
-    h1 {
-      font-size: 5rem;
-      letter-spacing: 6px;
-      }
-
-    h2 {
-      font-size: 1rem;
-      letter-spacing: 4px;
-      margin: 0 auto;
-    }
-
-    p {
-      font-size: 0.8rem;
-      letter-spacing: 0.1rem;
-    }
-
-    .navbar {
-      width: 100%;
-    }
-
-    .mid-text {
-      width: 80%;
-      text-align: center;
-    }
-
-    .mid-container {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }

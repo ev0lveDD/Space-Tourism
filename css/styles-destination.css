@@ -235,7 +235,7 @@ li {
   margin-right: 0.2rem;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
   body{
       background-image: url("background-destination-mobile.jpg");
@@ -307,76 +307,3 @@ li {
   .planet-data{
     flex-direction: column;
   }
-
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    body{
-        background-image: url("background-destination-mobile.jpg");
-    }
-
-    h1 {
-      font-size: 3.5rem;
-      letter-spacing: 6px;
-      }
-
-    h2 {
-      font-size: 1rem;
-      letter-spacing: 4px;
-      margin: 0 auto;
-    }
-
-    p {
-      font-size: 0.8rem;
-    }
-
-    .navbar, .navbar-background{
-      width: 100%;
-    }
-
-    .left-container {
-      width: 80%;
-      margin-left: 0;
-      padding-top: 0;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .right-container {
-      width: 80%;
-      margin: 3rem 0;
-      padding-top: 0;
-      align-items: center;
-      justify-content: center;
-    }
-
-    #planet-image {
-      height: auto;
-      width: auto;
-      max-width: 250px;
-      max-height: 250px;
-    }
-
-    .mid-container {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .planet-button {
-      font-size: 1rem;
-      height: 2rem;
-      margin: 0 1rem;
-    }
-
-    .planet-menu {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      padding: 0;
-    }
-
-    .planet-data{
-      flex-direction: column;
-    }
